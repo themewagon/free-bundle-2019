@@ -1,0 +1,50 @@
+body {
+    font-size: 1em;
+    line-height: 1.85714286em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #666666;
+    font-weight: 400;
+}
+.header{
+	min-height: 507px;
+}
+.header-title{
+	font-weight: 100;
+}
+.header-sub-title{
+	font-size: 1.5rem;
+	color: #7c8387;
+}
+.content{
+	background-color: #101E2A;
+}
+.content .card{
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+.content .item-name{
+	font-weight: 700;
+}
+.content .dropdown-menu{
+	background-color: #101E2A;
+	box-shadow: 0 0 5px #222;
+}
+.content .dropdown-menu a{
+	color: #555;
+}
+.content .dropdown-menu a:focus,
+.content .dropdown-menu a:hover{
+	color: #fff;
+	background-color: transparent;
+	font-weight: 400;
+
+}
+
+@media (max-width: 768px){
+    .card-columns{
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+    }
+}
