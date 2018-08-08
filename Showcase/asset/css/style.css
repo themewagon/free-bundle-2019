@@ -31,7 +31,7 @@ body {
 	box-shadow: 0 0 5px #222;
 	max-height: 350px;
 	overflow-y: scroll;
-	min-width: 272px;
+	min-width: 232px;
 }
 .content .dropdown-menu::-webkit-scrollbar-track
 {
@@ -63,7 +63,7 @@ body {
 
 }
 .content #dropdownMenuButton{
-	width: 272px;
+	width: 232px;
 }
 .grid .item{
 	width: 33.33%;
