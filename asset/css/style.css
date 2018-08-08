@@ -65,11 +65,17 @@ body {
 .content #dropdownMenuButton{
 	width: 272px;
 }
+.grid .item{
+	width: 33.33%;
+	display: block;
+	padding: 0 10px;
+}
+.grid .item:hover{
+	text-decoration: none;
+}
 
 @media (max-width: 768px){
-    .card-columns{
-        -webkit-column-count:2;
-        -moz-column-count:2;
-        column-count:2;
+    .grid .item{
+    	width: 50%;
     }
 }
