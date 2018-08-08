@@ -73,7 +73,24 @@ body {
 .grid .item:hover{
 	text-decoration: none;
 }
-
+.back-to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 40px;
+	width: 40px;
+	box-shadow: 0 0 5px #000;
+	text-align: center;
+	line-height: 40px;
+	text-align: center;
+	opacity: 0;
+	border-radius: 50%;
+	color: #fff;
+	transition: all 0.4s ease-in-out;
+}
+.back-to-top:hover{
+	color: #fff;
+}
 @media (max-width: 768px){
     .grid .item{
     	width: 50%;
