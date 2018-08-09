@@ -7,14 +7,26 @@ body {
     font-weight: 400;
 }
 .header{
-	min-height: 507px;
+	min-height: 400px;    
+	background: linear-gradient(to left, #087cf9, #37dbf5);
 }
 .header-title{
-	font-weight: 100;
+	font-weight: 700;
 }
 .header-sub-title{
 	font-size: 1.5rem;
-	color: #7c8387;
+	color: #fff;
+}
+.btn-download{
+	background-color: #fff;
+	border-radius: 30px;
+	font-weight: bold;
+	color: #1697F8;
+}
+.btn-download:hover{
+	background-color: #1697F8;
+	color: #fff;
+	box-shadow: 0 0 3px #1697F8;
 }
 .content{
 	background-color: #101E2A;
