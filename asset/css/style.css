@@ -69,6 +69,7 @@ body {
 	display: block;
 	padding: 0 10px;
 	margin-bottom: 30px;
+	float: left;
 }
 .grid .item:hover{
 	text-decoration: none;
