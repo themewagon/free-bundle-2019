@@ -1,15 +1,17 @@
 $(document).ready(function(){
 
 
-	$(".content").length && $(".content").each(function() {
-	    var e = $(this),
-	        t = e.find(".grid");
-	    t.isotope({
-	        itemSelector: ".item",
-	        masonry: {
-	            columnWidth: ".item"
-	        }
-	    });
+	$(window).on("load",function(){
+		$(".content").length && $(".content").each(function() {
+		    var e = $(this),
+		        t = e.find(".grid");
+		    t.isotope({
+		        itemSelector: ".item",
+		        masonry: {
+		            columnWidth: ".item"
+		        }
+		    });
+		});
 	});
 
 	// filter functions
