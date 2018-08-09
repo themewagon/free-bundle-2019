@@ -1,20 +1,6 @@
 $(document).ready(function(){
 
-	// filter functions
-	var filterFns = {
-
-	};
-
-	// bind filter button click
-	$('.category-list').on( 'click', 'a', function(e) {
-		e.preventDefault();
-		
-		var filterValue = $( this ).attr('data-filter');
-		// use filterFn if matches value
-		filterValue = filterFns[ filterValue ] || filterValue;
-		$grid.isotope({ filter: filterValue });
-	});
-
+	
 	$(".category-list > a").click(function() {
 		$("#dropdownMenuButton").text($(this).text()); 
 	});
@@ -37,14 +23,35 @@ $(document).ready(function(){
 
 }), $(window).on("load",function(){
 
-		$(".content").length && $(".content").each(function() {
-		    var e = $(this),
-		        t = e.find(".grid");
-		    t.isotope({
-		        itemSelector: ".item",
-		        masonry: {
-		            columnWidth: ".item"
-		        }
-		    });
-		});
+		// $(".content").length && $(".content").each(function() {
+		//     var e = $(this),
+		//         t = e.find(".grid");
+		//     t.isotope({
+		//         itemSelector: ".item",
+		//         masonry: {
+		//             columnWidth: ".item"
+		//         }
+		//     });
+		// });
+
+
+	var $grid = $('.grid').masonry({
+	  	// options...
+	  	itemSelector: '.item',
+	  	columnWidth: '.item'
+	});
+
+	// filter functions
+	var filterFns = {};
+
+	// bind filter button click
+	$('.category-list').on( 'click', 'a', function(e) {
+		e.preventDefault();
+		
+		var filterValue = $( this ).attr('data-filter');
+		// use filterFn if matches value
+		filterValue = filterFns[ filterValue ] || filterValue;
+		$grid.isotope({ filter: filterValue });
+	});
+	
 });
