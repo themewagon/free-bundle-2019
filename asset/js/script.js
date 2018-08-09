@@ -23,18 +23,6 @@ $(document).ready(function(){
 
 }), $(window).on("load",function(){
 
-		// $(".content").length && $(".content").each(function() {
-		//     var e = $(this),
-		//         t = e.find(".grid");
-		//     t.isotope({
-		//         itemSelector: ".item",
-		//         masonry: {
-		//             columnWidth: ".item"
-		//         }
-		//     });
-		// });
-
-
 	var $grid = $('.grid').masonry({
 	  	// options...
 	  	itemSelector: '.item',
