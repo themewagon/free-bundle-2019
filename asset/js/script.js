@@ -1,4 +1,4 @@
-$(window).on("load",function(){
+$(".content").imagesLoaded(function(){
 
 	var $grid = $('.grid').masonry({
 	  	// options...
