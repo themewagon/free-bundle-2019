@@ -1,19 +1,5 @@
 $(document).ready(function(){
 
-
-	$(window).on("load",function(){
-		$(".content").length && $(".content").each(function() {
-		    var e = $(this),
-		        t = e.find(".grid");
-		    t.isotope({
-		        itemSelector: ".item",
-		        masonry: {
-		            columnWidth: ".item"
-		        }
-		    });
-		});
-	});
-
 	// filter functions
 	var filterFns = {
 
@@ -49,4 +35,15 @@ $(document).ready(function(){
 		return false;
 	});
 
+}), $(window).on("load",function(){
+		$(".content").length && $(".content").each(function() {
+		    var e = $(this),
+		        t = e.find(".grid");
+		    t.isotope({
+		        itemSelector: ".item",
+		        masonry: {
+		            columnWidth: ".item"
+		        }
+		    });
+		});
 });
