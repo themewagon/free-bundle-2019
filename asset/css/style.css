@@ -18,6 +18,7 @@ body {
 }
 .content{
 	background-color: #101E2A;
+	overflow: hidden;
 }
 .content .card{
 	background-color: transparent;
