@@ -21,7 +21,6 @@ body {
 }
 .content .card{
 	background-color: transparent;
-	margin-bottom: 20px;
 }
 .content .item-name{
 	font-weight: 700;
@@ -69,6 +68,7 @@ body {
 	width: 33.33%;
 	display: block;
 	padding: 0 10px;
+	margin-bottom: 30px;
 }
 .grid .item:hover{
 	text-decoration: none;
