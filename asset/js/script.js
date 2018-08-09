@@ -1,4 +1,5 @@
-$(".content").imagesLoaded(function(){
+$(document).ready(function(){
+
 
 	var $grid = $('.grid').masonry({
 	  	// options...
@@ -6,6 +7,10 @@ $(".content").imagesLoaded(function(){
 	  	columnWidth: '.item'
 	});
 
+	$grid.imagesLoaded().progress( function() {
+	  $grid.isotope('layout');
+	}); 
+	 
 	// filter functions
 	var filterFns = {
 
