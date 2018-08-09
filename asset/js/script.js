@@ -37,7 +37,6 @@ $(document).ready(function(){
 
 }), $(window).on("load",function(){
 
-		$(".item").removeAttr("style");
 		$(".content").length && $(".content").each(function() {
 		    var e = $(this),
 		        t = e.find(".grid");
