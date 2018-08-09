@@ -1,15 +1,16 @@
 $(document).ready(function(){
 
 
-	var $grid = $('.grid').isotope({
-	  	// options...
-	  	itemSelector: '.item',
-	  	columnWidth: '.item'
+	$(".content").length && $(".content").each(function() {
+	    var e = $(this),
+	        t = e.find(".grid");
+	    t.isotope({
+	        itemSelector: ".item",
+	        masonry: {
+	            columnWidth: ".item"
+	        }
+	    });
 	});
-
-	$grid.imagesLoaded().done( function() {
-	  $grid.isotope('layout');
-	}); 
 
 	// filter functions
 	var filterFns = {
