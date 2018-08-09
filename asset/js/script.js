@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).on("load",function(){
 
 	var $grid = $('.grid').masonry({
 	  	// options...
