@@ -1,16 +1,16 @@
 $(document).ready(function(){
 
 
-	var $grid = $('.grid').masonry({
+	var $grid = $('.grid').isotope({
 	  	// options...
 	  	itemSelector: '.item',
 	  	columnWidth: '.item'
 	});
 
-	$grid.imagesLoaded().progress( function() {
+	$grid.imagesLoaded().done( function() {
 	  $grid.isotope('layout');
 	}); 
-	 
+
 	// filter functions
 	var filterFns = {
 
