@@ -24,10 +24,10 @@ body {
 }
 .header-title{
 	font-weight: 600;
-	font-size: 2.2rem;
+	font-size: 2.369rem;
 }
 .header-sub-title{
-	font-size: 1.2rem;
+	font-size: 1.333rem;
 	color: #fff;
 }
 .btn-download{
@@ -187,4 +187,10 @@ body {
     .grid .item{
     	width: 50%;
     }
+}
+@media (min-width: 768px){
+	.content{
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
 }
