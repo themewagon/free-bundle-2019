@@ -42,6 +42,8 @@ body {
 .content{
 	position: relative;
 	margin-top: -350px;
+	padding-left: 3.5rem;
+	padding-right: 3.5rem;
 }
 .content .card{
 	background-color: #fff;
