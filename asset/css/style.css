@@ -185,9 +185,32 @@ body {
 	top: 72%;
 	right: -4%;
 }
-.footer-caption{
-	font-size: 1.333rem;
-	margin-bottom: 15px;
+.footer-caption,
+.footer-slogan{
+	font-size: 1.777rem;
+}
+.footer{
+    padding-top: 500px;
+    margin-top: -480px;
+    position: relative;
+    overflow: hidden;
+}
+.footer:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    content: '';
+    background: #F6F9FC;
+    width: 100%;
+    z-index: -1;
+    transform: skew(0, -12deg);
+    transform-origin: 100%;
+    top: 16px;
+    height: 802px;
+}
+.footer .footer-bottom{
+	color: #8898aa;
 }
 @media (max-width: 768px){
     .grid .item{
