@@ -59,6 +59,7 @@ body {
 }
 .content .item-name{
 	font-weight: 700;
+	font-size: 1rem;
 }
 .content .item-category{
 	color: #999;
@@ -195,13 +196,17 @@ body {
     position: relative;
     overflow: hidden;
 }
+.footer .footer-content{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
 .footer:before{
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     content: '';
-    background: #F6F9FC;
+    background: #eee;
     width: 100%;
     z-index: -1;
     transform: skew(0, -12deg);
@@ -224,5 +229,9 @@ body {
 	.content{
 		padding-left: 3.5rem;
 		padding-right: 3.5rem;
+	}
+	.footer .footer-content{
+		padding-left: 7rem;
+		padding-right: 7rem;
 	}
 }
