@@ -42,6 +42,7 @@ body {
 .content{
 	position: relative;
 	margin-top: -350px;
+	z-index: 99;
 }
 .content .navbar{
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
@@ -202,7 +203,6 @@ body {
     margin-top: -480px;
     position: relative;
     overflow: hidden;
-    z-index: -1;
 }
 .footer .footer-content{
 	padding-left: 1rem;
