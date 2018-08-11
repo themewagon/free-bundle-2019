@@ -43,8 +43,6 @@ body {
 .content{
 	position: relative;
 	margin-top: -350px;
-	padding-left: 3.5rem;
-	padding-right: 3.5rem;
 }
 .content .card{
 	background-color: #fff;
@@ -61,6 +59,10 @@ body {
 }
 .content .item-name{
 	font-weight: 700;
+}
+.content .item-category{
+	color: #555;
+	line-height: 20px;
 }
 .content .dropdown-menu{
 	background-color: #fff;
@@ -183,12 +185,19 @@ body {
 	top: 72%;
 	right: -4%;
 }
+.footer-caption{
+	font-size: 1.333rem;
+	margin-bottom: 15px;
+}
 @media (max-width: 768px){
     .grid .item{
     	width: 50%;
     }
+    .content{
+    	padding: 0;
+    }
 }
-@media (min-width: 768px){
+@media (min-width: 992px){
 	.content{
 		padding-left: 3.5rem;
 		padding-right: 3.5rem;
