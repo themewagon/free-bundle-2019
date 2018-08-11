@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	
 	$(".category-list > a").click(function() {
-		$("#dropdownMenuButton").text($(this).text()); 
+		$("#navbarDropdown").text($(this).text()); 
 	});
 
 	$(window).scroll(function(){

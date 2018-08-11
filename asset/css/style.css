@@ -43,6 +43,9 @@ body {
 	position: relative;
 	margin-top: -350px;
 }
+.content .navbar{
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
 .content .card{
 	background-color: #fff;
 	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
@@ -69,6 +72,7 @@ body {
 	max-height: 350px;
 	overflow-y: scroll;
 	min-width: 232px;
+	margin: 0;
 }
 .content .dropdown-menu::-webkit-scrollbar-track
 {
@@ -99,9 +103,11 @@ body {
 	font-weight: 600;
 
 }
+.content .dropdown{
+
+}
 .content #dropdownMenuButton{
 	width: 232px;
-	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .grid .item{
 	width: 33.33%;
@@ -119,7 +125,7 @@ body {
 	right: 20px;
 	height: 40px;
 	width: 40px;
-	box-shadow: 0 0 5px #000;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	text-align: center;
 	line-height: 40px;
 	text-align: center;
@@ -185,7 +191,9 @@ body {
 	top: 72%;
 	right: -4%;
 }
-.footer-caption,
+.footer-caption{
+	font-size: 2.369rem;
+}
 .footer-slogan{
 	font-size: 1.777rem;
 }
@@ -194,6 +202,7 @@ body {
     margin-top: -480px;
     position: relative;
     overflow: hidden;
+    z-index: -1;
 }
 .footer .footer-content{
 	padding-left: 1rem;
