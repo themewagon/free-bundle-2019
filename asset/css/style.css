@@ -19,7 +19,7 @@ body {
 	transform-origin: 0;
 }
 .header .header-content{
-	padding-top: 12rem;
+	padding-top: 8rem;
 	padding-bottom: 26rem;
 }
 .header-title{
@@ -31,9 +31,8 @@ body {
 	color: #fff;
 }
 .btn-download{
-	background-color: #fff;
+	background-color: #3ecf8e;
 	font-weight: 500;
-	color: #222;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	text-transform: uppercase;
 }
