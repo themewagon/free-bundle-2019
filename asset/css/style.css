@@ -64,6 +64,13 @@ body {
 	font-weight: 700;
 	font-size: 1rem;
 }
+.content .nav-link{
+	white-space: nowrap;
+}
+.content .nav-link:hover,
+.content .nav-link:focus{
+	background-color: #eee;
+}
 .content .item-category{
 	color: #999;
 	line-height: 20px;
@@ -74,6 +81,8 @@ body {
 	overflow-y: scroll;
 	min-width: 232px;
 	margin: 0;
+	right: 0;
+	left: unset;
 }
 .content .dropdown-menu::-webkit-scrollbar-track
 {

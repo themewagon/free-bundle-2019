@@ -1,9 +1,32 @@
 $(document).ready(function(){
 
 	
-	$(".category-list > a").click(function() {
-		$("#navbarDropdown").text($(this).text()); 
+	navbar();
+
+	$(window).resize(function(){
+		$(".nav-item").removeAttr("style")
+		$(".category-list").html();
+		navbar();
 	});
+
+	function navbar(){
+		var totalWidth = 0;
+		var navbarWidth = $(".navbar").width() - $(".navbar .dropdown").width();
+
+		$(".nav-item").each(function(){
+
+				totalWidth += $(this).width();
+
+				if(totalWidth > navbarWidth){
+					if(!$(this).hasClass("dropdown")){
+						$(this).hide();
+						var link = $(this).html();
+
+						$(".category-list").append(link);
+					}
+				}
+		});
+	}
 
 	$(window).scroll(function(){
 		if($(window).scrollTop() > 500){
@@ -33,7 +56,7 @@ $(document).ready(function(){
 	var filterFns = {};
 
 	// bind filter button click
-	$('.category-list').on( 'click', 'a', function(e) {
+	$('.navbar').on( 'click', 'a', function(e) {
 		e.preventDefault();
 		
 		var filterValue = $( this ).attr('data-filter');
