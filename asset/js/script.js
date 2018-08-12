@@ -37,7 +37,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(window).scrollTop() > 540){
 			$(".back-to-top").css("opacity","1");
-			$(".navbar").addClass("fixed");
+			$(".navbar").addClass("sticky-top");
 		}
 		else{
 
@@ -52,7 +52,8 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$(document).on("click",".nav-link, .dropdown-item",function(){
+	$(document).on("click",".nav-link, .dropdown-item",function(e){
+		console.log(e.target);
 
 		$(".nav-link").removeClass("active");
 		$(".dropdown-item").removeClass("active");

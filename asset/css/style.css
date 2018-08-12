@@ -224,12 +224,8 @@ body {
 .footer .footer-bottom{
 	color: #8898aa;
 }
-.navbar.fixed{
-	position: fixed;
+.navbar.sticky-top{
 	top: 30px;
-	left: 3rem;
-	width: calc(100% - 6rem);
-	z-index: 999;
 }
 @media (max-width: 768px){
     .grid .item{
