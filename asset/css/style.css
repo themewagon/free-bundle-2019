@@ -210,7 +210,7 @@ body {
     top: 0;
     height: 100%;
     content: '';
-    background: #eee;
+    background: #F4F5F7;
     width: 100%;
     z-index: -1;
     transform: skew(0, -7deg);
