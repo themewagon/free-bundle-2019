@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	$(window).resize(function(){
 		$(".nav-item").removeAttr("style")
-		$(".category-list").html();
+		$(".category-list").html(' ');
 		navbar();
 	});
 
