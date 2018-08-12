@@ -204,10 +204,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-.footer .footer-content{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
 .footer:before{
     position: absolute;
     left: 0;
@@ -217,7 +213,7 @@ body {
     background: #eee;
     width: 100%;
     z-index: -1;
-    transform: skew(0, -12deg);
+    transform: skew(0, -8deg);
     transform-origin: 100%;
     top: 16px;
     height: 802px;
@@ -237,9 +233,5 @@ body {
 	.content{
 		padding-left: 3.5rem;
 		padding-right: 3.5rem;
-	}
-	.footer .footer-content{
-		padding-left: 7rem;
-		padding-right: 7rem;
 	}
 }
