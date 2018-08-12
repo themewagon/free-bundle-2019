@@ -22,19 +22,27 @@ $(document).ready(function(){
 						$(this).hide();
 						var link = $(this).html();
 
+						console.log(link);
+
 						$(".category-list").append(link);
 					}
 				}
 		});
+
+		$(".dropdown-menu .nav-link").each(function(){
+			$(this).removeClass("nav-link").addClass("dropdown-item");
+		});
 	}
 
 	$(window).scroll(function(){
-		if($(window).scrollTop() > 500){
+		if($(window).scrollTop() > 540){
 			$(".back-to-top").css("opacity","1");
+			$(".navbar").addClass("fixed");
 		}
 		else{
 
 			$(".back-to-top").css("opacity","0");
+			$(".navbar").removeClass("fixed");
 		}
 	});
 
@@ -43,6 +51,15 @@ $(document).ready(function(){
 
 		return false;
 	});
+
+	$(document).on("click",".nav-link, .dropdown-item",function(){
+
+		$(".nav-link").removeClass("active");
+		$(".dropdown-item").removeClass("active");
+
+		$(this).addClass("active");
+	});
+
 
 }), $(window).on("load",function(){
 
@@ -57,6 +74,7 @@ $(document).ready(function(){
 
 	// bind filter button click
 	$('.navbar').on( 'click', 'a', function(e) {
+
 		e.preventDefault();
 		
 		var filterValue = $( this ).attr('data-filter');
