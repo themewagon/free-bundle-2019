@@ -396,10 +396,10 @@ const images = [
         "previewLink": "https://technext.github.io/caremed/"
     },
     {
-        "name": "Edulogy",
-        "category": "Miscellaneous",
-        "downloadLink": "https://themewagon.com/themes/free-html-education-template-multi-page/",
-        "previewLink": "https://technext.github.io/edulogy/"
+        "name": "The Real Wedding",
+        "category": "Events & Wedding",
+        "downloadLink": "https://themewagon.com/themes/free-html5-wedding-template/",
+        "previewLink": "https://technext.github.io/real-wedding/"
     },
     {
         "name": "Magnum",
@@ -546,10 +546,10 @@ const images = [
         "previewLink": "https://technext.github.io/codrops-scribbler/"
     },
     {
-        "name": "Restaurant",
-        "category": "Food & Restaurant",
-        "downloadLink": "https://themewagon.com/themes/bootstrap-food-restaurant-website-template-free-download-2017/",
-        "previewLink": "http://markup.themewagon.com/restaurant_pro/"
+        "name": "World",
+        "category": "Miscellaneous",
+        "downloadLink": "https://themewagon.com/themes/free-html5-magazine-template/",
+        "previewLink": "https://technext.github.io/world/"
     },
     {
         "name": "Count",
@@ -576,10 +576,10 @@ const images = [
         "previewLink": "http://designstub.com/demos/avana/index.html"
     },
     {
-        "name": "Food Funday",
-        "category": "Food & Restaurant",
+        "name": "Seo",
+        "category": "Business & Corporate",
         "downloadLink": "https://themewagon.com/themes/free-bootstrap-restaurant-template/",
-        "previewLink": "https://technext.github.io/food-funday/"
+        "previewLink": "https://technext.github.io/seo/"
     },
     {
         "name": "Profile",
@@ -594,9 +594,9 @@ const images = [
         "previewLink": "https://technext.github.io/electro/"
     },
     {
-        "name": "Coming2Live",
-        "category": "Coming Soon",
-        "downloadLink": "https://themewagon.com/themes/free-coming-soon-html5-template-under-construction-web-pages/",
-        "previewLink": "https://technext.github.io/coming2live/"
+        "name": "Blanca",
+        "category": "Personal",
+        "downloadLink": "https://themewagon.com/themes/free-html5-personal-website-template/",
+        "previewLink": "https://technext.github.io/blanca/"
     }
 ]
