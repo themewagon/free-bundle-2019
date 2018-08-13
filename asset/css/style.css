@@ -75,6 +75,7 @@ body {
 	white-space: nowrap;
 	padding: .4rem 1rem;
 	border-radius: 0;
+	transition: all 0.4s ease-in-out;
 }
 .content .navbar .nav-link:hover{
 	background-color: #eee;
