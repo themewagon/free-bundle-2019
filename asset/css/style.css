@@ -35,6 +35,11 @@ body {
 	font-weight: 500;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	text-transform: uppercase;
+	font-size: .875rem;
+	padding: .625rem 1.25rem;
+}
+.btn-download i{
+	margin-right: 0.875rem;
 }
 .btn-download:hover{
 	color: #222;
@@ -66,9 +71,11 @@ body {
 }
 .content .navbar-expand .navbar-nav .nav-link{
 	white-space: nowrap;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: .4rem 1rem;
 	border-radius: 0;
+}
+.content .navbar .nav-link:hover{
+	background-color: #eee;
 }
 .content .item-category{
 	color: #999;
@@ -76,8 +83,9 @@ body {
 }
 .content .dropdown-item.active,
 .content .nav-item .active.nav-link{
-	background-color: #0062CC;
-	color: #fff!important;
+	background-color: #ddd;
+	color: rgba(0,0,0,0.5);
+	border-radius: 0.25rem;
 }
 .content .dropdown-menu{
 	background-color: #fff;
@@ -102,7 +110,7 @@ body {
 	background-color: #ccc;
 }
 .content .dropdown-menu a{
-	color: #222;
+	color: rgba(0,0,0,0.5);
 }
 
 .content .dropdown{
