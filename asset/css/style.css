@@ -79,6 +79,7 @@ body {
 }
 .content .navbar .nav-link:hover{
 	background-color: #eee;
+	border-radius: 0.25rem;
 }
 .content .item-category{
 	color: #999;
