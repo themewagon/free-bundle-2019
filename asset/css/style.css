@@ -239,7 +239,41 @@ body {
 .navbar.sticky-top{
 	top: 30px;
 }
+@media (max-width: 1260px){
+	.header .container{
+		max-width: 100%;
+		padding-left: 4.125rem;
+
+	}
+	.footer-content{
+		max-width: 100%;
+		padding-left: 4.125rem;
+		padding-right: 4.125rem;
+
+	}
+}
+@media (max-width: 992px){
+	.header .container{
+		padding-left: 1.563rem;
+	}
+	.footer-content{
+		max-width: 100%;
+		padding-left: 1.563rem;
+		padding-right: 1.563rem;
+	}
+}
 @media (max-width: 768px){
+	.header .container{
+		padding-left: 0.625rem;
+	}
+	.footer-content{
+		padding-left: 0.625rem;
+		padding-right: 0.625rem;
+	}
+	.header .header-content{
+		padding-top: 0rem;
+		padding-bottom: 26rem;
+	}
     .grid .item{
     	width: 50%;
     }
@@ -255,18 +289,48 @@ body {
 }
 @media (max-width: 667px){
 	.site-name{
-		font-size: 1.999rem;
+		font-size: 3.157rem;
 	}
 	.header-title{
-		font-size: 1.414rem;
+		font-size: 1.777rem;
 	}
 	.header-sub-title{
 		font-size: 1rem;
 	}
 	.footer-caption{
-		font-size: 1.999rem;
+		font-size: 1.777rem;
 	}
 	.footer-slogan{
-		font-size: 1.414rem;
+		font-size: 1.333rem
+	}
+}
+
+@media (max-width: 475px){
+	.header .header-content{
+		padding-bottom: 22rem;
+	}
+	.header-title{
+		font-size: 1.333rem;
+	}
+	.header-sub-title{
+		font-size: 1rem;
+	}
+	.footer-caption{
+		font-size: 1.333em;
+	}
+	.footer-slogan{
+		font-size: 1rem
+	}
+}
+
+@media (max-width: 375px){
+	.site-name{
+		font-size: 2.369rem;
+	}
+	.header-title{
+		font-size: 1rem;
+	}
+	.header-sub-title{
+		font-size: 0.707rem;
 	}
 }
