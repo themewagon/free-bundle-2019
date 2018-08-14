@@ -59,6 +59,7 @@ body {
 	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 	transition: top 0.2s ease-in-out;
 	top: 0;
+	border: 0;
 }
 .content .card:hover{
 	top: -10px;
@@ -75,9 +76,11 @@ body {
 	white-space: nowrap;
 	padding: .4rem 1rem;
 	border-radius: 0;
+	transition: all 0.2s ease-in-out;
 }
 .content .navbar .nav-link:hover{
 	background-color: #eee;
+	border-radius: 0.25rem;
 }
 .content .item-category{
 	color: #999;
@@ -121,10 +124,14 @@ body {
 .content #dropdownMenuButton{
 	width: 232px;
 }
+.content .grid{
+	margin-right: -6px;
+	margin-left: -6px;
+}
 .grid .item{
 	width: 33.33%;
 	display: block;
-	padding: 0 10px;
+	padding: 0 16px;
 	margin-bottom: 30px;
 	float: left;
 }
@@ -237,9 +244,50 @@ body {
 .navbar.sticky-top{
 	top: 30px;
 }
+@media (max-width: 1260px){
+	.header .container{
+		max-width: 100%;
+		padding-left: 4.125rem;
+
+	}
+	.footer-content{
+		max-width: 100%;
+		padding-left: 4.125rem;
+		padding-right: 4.125rem;
+
+	}
+}
+@media (max-width: 992px){
+	.header .container{
+		padding-left: 1.563rem;
+	}
+	.footer-content{
+		max-width: 100%;
+		padding-left: 1.563rem;
+		padding-right: 1.563rem;
+	}
+}
 @media (max-width: 768px){
+	.header .container{
+		padding-left: 0.625rem;
+	}
+	.footer-content{
+		padding-left: 0.625rem;
+		padding-right: 0.625rem;
+	}
+	.header .header-content{
+		padding-top: 1rem;
+		padding-bottom: 24rem;
+	}
+	.btn-download{
+		font-size: 0.75rem;
+	}
+	.content .grid{
+		margin: 0;
+	}
     .grid .item{
     	width: 50%;
+    	padding: 0 10px;
     }
     .content{
     	padding: 0;
@@ -249,5 +297,48 @@ body {
 	.content{
 		padding-left: 3.5rem;
 		padding-right: 3.5rem;
+	}
+}
+@media (max-width: 667px){
+	.site-name{
+		font-size: 3.157rem;
+	}
+	.header-title{
+		font-size: 1.777rem;
+	}
+	.header-sub-title{
+		font-size: 1rem;
+	}
+	.footer-caption{
+		font-size: 1.777rem;
+	}
+	.footer-slogan{
+		font-size: 1.333rem
+	}
+}
+
+@media (max-width: 475px){
+	.header .header-content{
+		padding-bottom: 22rem;
+	}
+	.header-title{
+		font-size: 1.333rem;
+	}
+	.header-sub-title{
+		font-size: 0.75rem;
+	}
+	.footer-caption{
+		font-size: 1.333em;
+	}
+	.footer-slogan{
+		font-size: 1rem
+	}
+}
+@media (max-width: 375px){
+	.site-name{
+		font-size: 2.369rem;
+	}
+	.header-title{
+		font-size: 1rem;
 	}
 }
