@@ -271,8 +271,11 @@ body {
 		padding-right: 0.625rem;
 	}
 	.header .header-content{
-		padding-top: 0rem;
-		padding-bottom: 26rem;
+		padding-top: 1rem;
+		padding-bottom: 24rem;
+	}
+	.btn-download{
+		font-size: 0.75rem;
 	}
     .grid .item{
     	width: 50%;
