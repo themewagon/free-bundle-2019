@@ -59,6 +59,7 @@ body {
 	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 	transition: top 0.2s ease-in-out;
 	top: 0;
+	border: 0;
 }
 .content .card:hover{
 	top: -10px;
@@ -316,7 +317,7 @@ body {
 		font-size: 1.333rem;
 	}
 	.header-sub-title{
-		font-size: 1rem;
+		font-size: 0.75rem;
 	}
 	.footer-caption{
 		font-size: 1.333em;
@@ -331,8 +332,5 @@ body {
 	}
 	.header-title{
 		font-size: 1rem;
-	}
-	.header-sub-title{
-		font-size: 0.707rem;
 	}
 }
