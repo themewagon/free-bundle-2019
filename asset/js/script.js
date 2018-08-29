@@ -50,7 +50,6 @@ $(document).ready(function(){
 	});
 
 	$(document).on("click",".nav-link, .dropdown-item",function(e){
-		console.log(e.target);
 
 		$(".nav-link").removeClass("active");
 		$(".dropdown-item").removeClass("active");
